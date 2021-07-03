@@ -1,0 +1,101 @@
+*{
+    margin : 0 ;
+    padding: 0;
+    font-family: sans-serif;
+}
+.body {
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1380px 400px;
+    background-image: fixed;
+}
+
+a, li, button {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.about{
+    position: absolute;
+    top: 80%;
+    transform: translatex(+100%)
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    font-weight: 200;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: greenyellow;
+    cursor: pointer;
+    letter-spacing: .2cm;
+}
+
+.navlink li {
+    list-style: none;
+    display: inline-block;
+}
+.navlink li a{
+    color: #41D694;
+    margin: 0 15px;
+    transition: all .3s ease 0s;
+
+}
+
+.navlink li a:hover {
+    color: greenyellow;
+    text-decoration: royalblue;
+    border-bottom: #fff; 
+
+}
+
+
+.btn button{
+    border: none;
+    background-color: #ff5733;
+    margin-right: 20px;
+    padding: 6px 25px;
+    border-radius: 15px;
+    font-weight: bold;
+} 
+
+
+button:hover{
+    background-color: #db3712;
+    transition: all .3s ease 0s;
+    
+
+}
+
+.hed b{
+    width: 100%;
+    position: absolute;
+    top: 28%;
+    transform: translateY(-20%);
+    text-align: center;
+    color: #fff;
+    letter-spacing: .4cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    
+ 
+}
+.para{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-10%);
+    text-align: center;
+    padding-left: 130px;
+    color: #fff;
+}
+
+
